@@ -1,4 +1,6 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { toggleComplete } from '../redux/todoSlice';
 
 const TodoItem = ({ id, title, completed }) => {
 	return (
